@@ -3,6 +3,9 @@ body {
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -69,10 +72,12 @@ p {
 }
 /* testimonials */
 #testimonials{
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
 }
 .testimonial-image{
   width: 10%;
