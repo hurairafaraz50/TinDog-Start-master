@@ -51,6 +51,7 @@ p {
 /* download button  */
 .download-button {
   margin: 5% 3% 5% 0%;
+  margin-left: 4%;
 }
 /* title-image */
 .title-image {
@@ -65,7 +66,9 @@ p {
 #feature {
   padding: 7% 15%;
   background-color: #fff;
-  position: relative;  
+  position: absolute; 
+  z-index: 1;
+ 
 }
 .feature-box {
   text-align: center;
