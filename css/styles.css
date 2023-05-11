@@ -14,12 +14,13 @@ body {
   background-color: #ff4c68;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 h1 {
   font-size: 3.5rem;
   font-weight: 800;
   line-height: 1.5;
+  margin-left: 15px;
 }
 h2{
   font-weight: 800;
@@ -39,9 +40,10 @@ p {
 .navbar-brand {
   font-size: 2.5rem;
   font-weight: bold;
+  padding-bottom: 35px;
 }
 .nav-item {
-  padding: 0 18px;
+  padding: 0px 18px 35px;
 }
 .nav-link {
   font-size: 1.2rem;
@@ -53,11 +55,17 @@ p {
 /* title-image */
 .title-image {
   width: 60%;
+  padding-top: 30px ;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  
 }
 /* features section  */
 #feature {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;  
 }
 .feature-box {
   text-align: center;
@@ -102,4 +110,36 @@ p {
 }
 .pricing-column{
   padding: 3% 2%;
+}
+/* cta-section */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+/* footer-section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+   
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media(max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0)
+  }
 }
